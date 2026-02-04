@@ -1,0 +1,23 @@
+1.train_embeddings.model.py:
+
+(1)定义 TuckER 模型类：
+继承自 torch.nn.Module，实现知识图谱嵌入模型
+支持多种模型类型（DistMult, SimplE, ComplEx, RESCAL, TuckER）
+(2)模型初始化与配置：
+设置模型参数和超参数
+初始化实体和关系的嵌入层 (self.E, self.R)
+配置批归一化、Dropout 等正则化技术
+(3)实现不同的知识图谱嵌入方法：
+DistMult: 简单的乘法模型
+SimplE: 对称和反对称路径建模
+ComplEx: 复数空间建模
+RESCAL: 矩阵分解方法
+TuckER: 张量分解方法
+(4)损失函数实现：
+实现 bce_loss 和 ce_loss 两种损失函数
+支持 L3 正则化
+(5)前向传播：
+forward 方法实现模型的前向计算流程
+返回预测结果
+
+该文件的核心是通过不同算法学习实体和关系的低维向量表示，用于知识图谱补全等任务
