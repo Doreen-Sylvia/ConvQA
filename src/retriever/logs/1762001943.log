@@ -1,0 +1,18 @@
+2025-11-01 20:59:03,676 INFO  Initializing training sample streamer
+2025-11-01 20:59:03,707 INFO  成功加载对话数据，共 595 条对话
+2025-11-01 20:59:03,708 INFO  成功加载对话数据，共 1 条对话
+2025-11-01 20:59:03,708 INFO  随机选择 1 条对话，已选择总数: 1
+2025-11-01 20:59:03,865 INFO  成功加载对话数据，共 1 条对话
+2025-11-01 20:59:03,865 INFO  随机选择 1 条对话，已选择总数: 1
+2025-11-01 20:59:04,028 INFO  Initializing test_rank streamer
+2025-11-01 20:59:04,565 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: 52d27c67-01ae-4e43-8388-14647f3e2523)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
+2025-11-01 20:59:04,566 WARNING  Retrying in 1s [Retry 1/5].
+2025-11-01 20:59:06,082 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: cbbd5d22-8a06-4a93-bb76-664685d38aad)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
+2025-11-01 20:59:06,082 WARNING  Retrying in 2s [Retry 2/5].
+2025-11-01 20:59:08,717 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: 77c29212-c653-4100-9104-8406f8755ae5)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
+2025-11-01 20:59:08,717 WARNING  Retrying in 4s [Retry 3/5].
+2025-11-01 20:59:13,265 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: 72691ba8-2355-46f3-97f3-ac96d1dec2ec)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
+2025-11-01 20:59:13,266 WARNING  Retrying in 8s [Retry 4/5].
+2025-11-01 20:59:21,976 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: e6f81bd3-fea6-4f03-9bb1-23752b6ec462)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
+2025-11-01 20:59:21,976 WARNING  Retrying in 8s [Retry 5/5].
+2025-11-01 20:59:30,617 WARNING  '(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /model/roberta-base/resolve/main/config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))"), '(Request ID: 364a1384-b125-44bf-8d22-668a215b5393)')' thrown while requesting HEAD https://huggingface.co/model/roberta-base/resolve/main/config.json
